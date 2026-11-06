@@ -1,0 +1,15 @@
+{
+  "name": "opencode-context-kit",
+  "version": "0.2.0",
+  "description": "Cheap context for long OpenCode sessions: a visible reset marker that cuts the payload, and a compiled project brief injected into every request.",
+  "type": "module",
+  "license": "MIT",
+  "exports": { ".": "./index.ts" },
+  "files": ["index.ts", "core.ts", "README.md", "LICENSE"],
+  "keywords": ["opencode", "opencode-plugin", "context", "tokens", "cost"],
+  "repository": { "type": "git", "url": "git+https://github.com/larvance/opencode-context-kit.git" },
+  "homepage": "https://github.com/larvance/opencode-context-kit#readme",
+  "scripts": { "test": "node --test test/*.test.ts" },
+  "engines": { "node": ">=22.15" },
+  "peerDependencies": { "@opencode/plugin": "latest" }
+}
